@@ -1,6 +1,14 @@
 # Ford GoBike System Data Exploration
 #### by Sooyeon Won 
 
+### Keywords 
+
+- Real-World Data Analysis 
+- Data Visualisation in Data Analysis 
+- Univariate, Bivariate, Multivariate Exploration of Data 
+- Explanatory Visualisations 
+
+
 ## Introduction
 
 As a project of _Data Visualization_ in [Nanodegree Program for Data Analyst (Udacity)](https://www.udacity.com/course/data-analyst-nanodegree--nd002), I investigated mobility patterns of rental bikes. The data, provided by ['Ford GoBike System'](https://www.lyft.com/bikes/bay-wheels/system-data) contains time, place, and user information of each bike trip since 2017. In this analysis, I used the data collected from 2018 to 2019. Both years include all datapoints from January to December. Since the monthly datasets are initially provided, they are all aggregated before the data exploration stage. You can see how the monthly datasets are appended in "01_Data Wrangling 2018-2019.html". The final dataset includes more than 4 million datapoints. 
@@ -29,4 +37,6 @@ This analysis mainly investigates about the mobility patterns of the rental bike
 <br>
 
 ## References 
-- For distance calculation: https://stackoverflow.com/questions/40452759/pandas-latitude-longitude-to-distance-between-successive-rows
+- [For distance calculation](https://stackoverflow.com/questions/40452759/pandas-latitude-longitude-to-distance-between-successive-rows) <br>
+- [seaborn.barplot](https://seaborn.pydata.org/generated/seaborn.barplot.html)<br>
+- [seaborn.heatmap](https://seaborn.pydata.org/generated/seaborn.heatmap.html)<br>
